@@ -11,9 +11,3 @@ def test_edit():
     response = requests.get(f'https://todo-app-sky.herokuapp.com/{id}')
     
     assert response.status_code == 404
-
-
-
-
-
-#создать задачу, удалить созданную задачу, проверить что гет по удалённой задаче == 404
