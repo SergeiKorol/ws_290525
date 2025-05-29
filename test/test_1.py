@@ -1,7 +1,7 @@
 import requests
 
 
-def test_1():
+def test_2():
     body = {"title":"generated-1","completed":False}
     response = requests.post("https://todo-app-sky.herokuapp.com/", json=body)
     id = response.json()["id"]
